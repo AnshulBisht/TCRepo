@@ -1,0 +1,19 @@
+{
+	"name": "tumbPipleline123",
+	"properties": {
+		"activities": [
+			{
+				"name": "Wait1",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 420
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2020-08-22T10:24:56Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
